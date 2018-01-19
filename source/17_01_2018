@@ -1,0 +1,381 @@
+    1  whoami
+    2  ls -l 
+    3  mkdir cdh
+    4  ls -l 
+    5  echo  cdh 
+    6  clear
+    7  ll
+    8  which perl
+    9  which python
+   10  clear
+   11  git clone https://gist.github.com/8169242.git
+   12  ll
+   13  cd 8169242/
+   14  ll
+   15  git remote 
+   16  git remote -v
+   17  clear
+   18  cd ../
+   19  ll
+   20  rm -rf 8169242/
+   21  ll
+   22  rm -rf cdh
+   23  clear
+   24  vi 
+   25  vi hello1.c
+   26  vi hello1.c
+   27  for i in {1..1000}; do cp hello1.c hello_$i.c; done
+   28  ls 
+   29  ls -l hello_1000.c 
+   30  cat hello_483.c
+   31  history 
+   32  ll
+   33  pwd
+   34  ls -l 
+   35  mkdir source
+   36  mv *.c source/
+   37  ll
+   38  git init 
+   39  ls 
+   40  ls -la 
+   41  cd .git/
+   42  ll
+   43  ll hooks/
+   44  ll
+   45  ll
+   46  cd ../
+   47  clear
+   48  ls -l 
+   49  ls -la 
+   50  git status
+   51  git add source/hello
+   52  git add source/
+   53  git status
+   54  git commit -m"Intial comit /intial source code" 
+   55  git config --global user.email "manjegowda2011@gmail.com
+   56  "
+   57   git config --global user.name "Manjegowda"
+   58  git commit -m"Intial comit /intial source code" 
+   59  git status
+   60  ll
+   61   git config --global list
+   62   git config --global -list
+   63   git config  -list
+   64   git config  --list
+   65  clear
+   66  cd source/
+   67  ll
+   68  vi hello1.c 
+   69  git status
+   70  vi hello_1.c 
+   71  git status
+   72  git diff hello_1.c
+   73  git diff hello1.c
+   74  vi hello_2.c 
+   75  git diff  hello_2.c 
+   76  clear
+   77  ll
+   78  git status
+   79  git -a -m "my changes committed second time by naanu Manje gowda" 
+   80  git -a -m "my changes committed second time by naanu Manje gowda"  hello1.c
+   81  git -amend -m "my changes committed second time by naanu Manje gowda"  hello1.c
+   82  git add 
+   83  git add .
+   84  git -amend -m "my changes committed second time by naanu Manje gowda"  
+   85  git  -m "my changes committed second time by naanu Manje gowda"  
+   86  git commit -a -m "my changes committed second time by naanu Manje gowda"  hello1.c
+   87  git commit  -m "my changes committed second time by naanu Manje gowda"  hello1.c
+   88  git status 
+   89  git commit  -m "my changes committed second time by naanu Manje gowda"  .
+   90  git status 
+   91  vi hello_1.c
+   92  git log 
+   93  git log -v
+   94  git log -v
+   95  git log -V
+   96  git log --help
+   97  git log -s
+   98  git log --name-only
+   99  git log -p
+  100  q
+  101  git log 
+  102  git log -p
+  103  git log 
+  104  history
+  105  history >history_11_01_2018
+  106  git status
+  107  git add history_11_01_2018 '
+  108  git commit -m "history file added" history_11_01_2018 
+  109  exit
+  110  ll\
+  111  ll
+  112  exit
+  113  ls -l
+  114  mkdir source
+  115  ls -l
+  116  who am i
+  117  ls -l
+  118  mkdir mg
+  119  ls -l
+  120  echo mg/
+  121  ls -l
+  122  git clone https://gist.github.com/8169242.git
+  123  cd 8169242
+  124  ll
+  125  clear
+  126  cd ..
+  127  rm -rf 8169242
+  128  ls -l
+  129  ls -la
+  130  cd .git
+  131  cd ..
+  132  pwd
+  133  git status
+  134  cat
+  135  claear
+  136  history
+  137  git status
+  138  exit
+  139  ll
+  140  git status
+  141  ll
+  142  cd source/
+  143  ll
+  144  vi hello_977.c
+  145  git status
+  146  git add hello_977.c 
+  147  git status
+  148  git reset hello_977.c
+  149  git status
+  150  git add hello_977.c 
+  151  git status
+  152  git commit hello_977.c 
+  153  git status
+  154  git log
+  155  git remote  -v
+  156  git remote  
+  157  cd ../
+  158  git remote
+  159  git remote -v
+  160  git info
+  161  cd ../
+  162  ll
+  163  ls -la
+  164  mkdir manju_repo
+  165  cd manju_repo/
+  166  git init
+  167  ll
+  168  ls -la
+  169  git status
+  170  #cp ../my_repo/source/hello_2* 
+  171  mkdir source
+  172  cp ../my_repo/source/hello_2* source/
+  173  ll source/
+  174  ls -l 
+  175  git status
+  176  git add source/hello_2
+  177  git add source
+  178  git status
+  179  git commit -m"my first commit by manju" 
+  180  git status
+  181  git log
+  182  cd source/
+  183  vi hello_2.c 
+  184  git status
+  185  git  branch -a
+  186  git  branch -a
+  187  history 
+  188  history >history_12_01_2018
+  189  exit
+  190  git clone /e/Manjegowda/GIT/manju_repo/.git
+  191  ll
+  192  git remote -v
+  193  ll
+  194   cd manju_repo/
+  195  git remote -v
+  196  ll
+  197  cd source/
+  198  vi hello_2.c 
+  199  git status
+  200  git add hello_2.c 
+  201  git status
+  202  git commit -m "my commit from client" hello_2.c 
+  203  git status
+  204  vi hello_2.c 
+  205  git push
+  206  git push origin master
+  207  git push origin master
+  208  git reset --hard
+  209  git push origin master
+  210  git checkout cdh
+  211  git checkout -b cdh
+  212  git push 
+  213  git push --set-upstream origin cdh
+  214  vi hello_2.c 
+  215  git checkout -b manjegowda
+  216  git push --set-upstream origin manjegowda
+  217  exit
+  218  who am i
+  219  ls
+  220  ls -l
+  221  ls -lrth
+  222  mkdir manju_gowda
+  223  ls -l
+  224  clear
+  225  which perl
+  226  which paython
+  227  cd .git
+  228  git init
+  229  cd .git
+  230  cd ..
+  231  echo manje_gowda
+  232  cd .git
+  233  ls -lrth
+  234  cd ..
+  235  ls -l
+  236  git remote
+  237  git remote -v
+  238  ls -l
+  239  clear
+  240  git status
+  241  git diff
+  242  git commit -m "my changes commited by MG" 
+  243  git commit -m "my changes commited by MG" hello_297.c
+  244  vim hello_297.c
+  245  git commit -m "my changes commited by MG" hello_297.c
+  246  git status
+  247  git add
+  248  git commit -m "my changes commited by MG" hello_297.c
+  249  git log
+  250  clear
+  251  ls -l
+  252  git add hello_296.c
+  253  git status
+  254  vi hello_296.c
+  255  git commit -m " my changes commited by MG" hello_296.c 
+  256  git status
+  257  git log
+  258  git branch
+  259  git branch hello_2.c
+  260  git branch
+  261  cat
+  262  exit
+  263  git clone https://github.com/dh-chandu/training.git
+  264  ls
+  265  git global list
+  266  git global config list
+  267  git config global list
+  268  git config --global list
+  269  git config --global --list
+  270  pwd
+  271  ll ../my_repo/
+  272  ll ../my_repo/source/
+  273  #ll ../my_repo/source/hello_1* 
+  274  mkdir source
+  275  cp  ../my_repo/source/hello_1* source/
+  276  ll
+  277  mv source/ training/
+  278  cd training/
+  279  ll
+  280  git status
+  281  git add source/
+  282  git status\
+  283  git status
+  284  git commit -m"by manje gowda"
+  285  clear
+  286  git status
+  287  git push 
+  288  git log
+  289  ls 
+  290  cd source
+  291  ls 
+  292  vi hello_10.c
+  293  vi hello_100.c
+  294  vi hello_137.c
+  295  git status
+  296  git diff
+  297  ls
+  298  git status
+  299  git diff hello_10.c
+  300  git add
+  301  git add .
+  302  git commi
+  303  git commit
+  304  git commit -m "commited in 3 files by manjegowda"
+  305  git status
+  306  git push
+  307  ls 
+  308  git hello_185.c
+  309  vi hello_185.c
+  310  git status
+  311  git commit -m " changed one file by Manjegowda"
+  312  git add .
+  313  git diff
+  314  git diff hello_185.c
+  315  git status
+  316  git status
+  317  git commit -m " changed one file by manjegowda"
+  318  git status
+  319  vi hello_200.c
+  320  ls
+  321  vi hello_159.c
+  322  git add .
+  323  git status
+  324  git commit -m " changed by another file by manjegowda"
+  325  git diff
+  326  git diff .
+  327  git diff hello_159.c
+  328  git status
+  329  git status .
+  330  git dif .
+  331  git log
+  332  git status
+  333  git log
+  334  git log -p 1
+  335  git log -p -1
+  336  git log -p -2
+  337  git log -p -4
+  338  git push
+  339  git pull
+  340  vi hello_185.c
+  341  git status
+  342  git commit  -m " changes by manjegowda"
+  343  git diff
+  344  git add
+  345  git add .
+  346  git diff
+  347  git log -p -1
+  348  git push
+  349  git pull
+  350* git status 
+  351  git commit -m "working on commonfile" 
+  352  git pull
+  353  vi hello_185.c 
+  354  git log 
+  355  git log -p -1 
+  356  git log -p -2
+  357  git log 
+  358  git log -s
+  359  git log --hepl
+  360  git log --help
+  361  git log -p hello_185.c
+  362  git log -p hello_185.c
+  363  git log hello_185
+  364  git log -p  hello_185
+  365  git log -p  hello_185
+  366  git log hello_185
+  367  git log 
+  368  git log --log-size 2
+  369  git log -n 5 
+  370  git log 
+  371  git log -p 3
+  372  git log -p -3
+  373  git log --decorate=short
+  374  git log --pretty=oneline
+  375  git log --pretty=oneline |wc -l 
+  376  history
+  377  history > 17-01-2018_history.c cp\Manjegowda\GIT\manju_repo
+  378  history
+  379  cat
+  380  history
+  381  history > 17_01_2018.c

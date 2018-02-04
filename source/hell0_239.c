@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main()
 {
-   // printf() displays the string inside quotation
+hi....
+	hello...
+	   gd evening...
+	// printf() displays the string inside quotation
    printf("Hello, World!");
    return 0;
 }
